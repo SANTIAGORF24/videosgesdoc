@@ -12,7 +12,7 @@ export function Basic() {
     <>
       <div id="basicos">
         <div className="flex flex-col items-center">
-          <h2 className="text-7xl font-bold py-20">Radicación</h2>
+          <h2 className="sm:text-7xl font-bold py-20 text-5xl">Radicación</h2>
         </div>
       </div>
       <div className="flex justify-center">
