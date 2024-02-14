@@ -16,7 +16,7 @@ export function Basic() {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="flex justify-between w-4/5 ">
+        <div className="sm:flex sm:justify-between sm:w-4/5 max-sm:w-full max-sm:p-6 max-sm:gap-6 max-sm:flex max-sm:flex-col">
           <div>
             {" "}
             <Card
