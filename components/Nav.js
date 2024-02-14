@@ -17,7 +17,7 @@ export function Nav() {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link className="text-white" href="#">
+          <Link className="text-white" href="#basicos">
             Capacitacion
           </Link>
         </NavbarItem>

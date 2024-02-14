@@ -2,20 +2,27 @@
 import React from "react";
 import { Card, CardHeader, CardBody, Image } from "@nextui-org/react";
 import ReactPlayer from "react-player";
-
+import "../../app/globals.css";
 export function Basic() {
+  const customBorderStyle = {
+    borderImage: "linear-gradient(to right, #fcd34d, #ff6384, #8a2be2)",
+    borderImageSlice: 1,
+  };
   return (
     <>
-      <div>
+      <div id="basicos">
         <div className="flex flex-col items-center">
-          <h2 className="text-7xl font-bold py-20">Capacitaciones</h2>
+          <h2 className="text-7xl font-bold py-20">Radicación</h2>
         </div>
       </div>
       <div className="flex justify-center">
         <div className="flex justify-between w-4/5 ">
           <div>
             {" "}
-            <Card className="py-4 bg-gradient-to-r from-yellow-300  via-red-500 to-purple-500 ">
+            <Card
+              style={customBorderStyle}
+              className="py-4 bg-transparent border-solid border-3"
+            >
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                 <p className="text-tiny uppercase font-bold text-white ">
                   Capitulo 2
@@ -37,7 +44,10 @@ export function Basic() {
           </div>
           <div>
             {" "}
-            <Card className="py-4 bg-gradient-to-r from-yellow-300  via-red-500 to-purple-500 ">
+            <Card
+              style={customBorderStyle}
+              className="py-4 bg-transparent border-solid border-3 "
+            >
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                 <p className="text-tiny uppercase font-bold text-white ">
                   Capitulo 3
@@ -59,7 +69,10 @@ export function Basic() {
           </div>
           <div>
             {" "}
-            <Card className="py-4 bg-gradient-to-r from-yellow-300  via-red-500 to-purple-500 ">
+            <Card
+              style={customBorderStyle}
+              className="py-4 bg-transparent border-solid border-3"
+            >
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                 <p className="text-tiny uppercase font-bold text-white ">
                   Nueva version
