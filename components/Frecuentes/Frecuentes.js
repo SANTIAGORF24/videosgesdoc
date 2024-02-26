@@ -31,7 +31,7 @@ export function Frecuentes() {
                 </p>
                 <small className="text-white">memorando</small>
                 <h4 className="font-bold text-large text-white">
-                  Redactar Memorando (IE)
+                  Eliminar plantilla de vuelta
                 </h4>
               </CardHeader>
               <CardBody className="overflow-visible py-2">
