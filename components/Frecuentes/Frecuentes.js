@@ -36,7 +36,7 @@ export function Frecuentes() {
               </CardHeader>
               <CardBody className="overflow-visible py-2">
                 <ReactPlayer
-                  url={"https://youtu.be/hhQe9DP0ES0"}
+                  url={"https://youtu.be/-ckjcoPzwAU"}
                   controls
                   width={400}
                   height={202}
