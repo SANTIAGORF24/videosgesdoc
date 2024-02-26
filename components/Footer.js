@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="text-white">
-            Cotactanos a:{" "}
+            Contactanos a:{" "}
             <a
               className="font-bold"
               href="mailto:soportetics@mindeporte.gov.co"

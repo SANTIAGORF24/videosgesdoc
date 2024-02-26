@@ -27,9 +27,9 @@ export function Frecuentes() {
             >
               <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                 <p className="text-tiny uppercase font-bold text-white ">
-                  Capitulo 2
+                  Capitulo 4
                 </p>
-                <small className="text-white">memorando</small>
+                <small className="text-white">Preguntas Frecuentes</small>
                 <h4 className="font-bold text-large text-white">
                   Eliminar plantilla de vuelta
                 </h4>
