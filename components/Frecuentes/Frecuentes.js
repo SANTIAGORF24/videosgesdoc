@@ -44,6 +44,31 @@ export function Frecuentes() {
               </CardBody>
             </Card>
           </div>
+          <div>
+            {" "}
+            <Card
+              style={customBorderStyle}
+              className="py-4 bg-transparent border-solid border-3 "
+            >
+              <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
+                <p className="text-tiny uppercase font-bold text-white ">
+                  Capitulo 5
+                </p>
+                <small className="text-white">Preguntas Frecuentes</small>
+                <h4 className="font-bold text-large text-white">
+                  Mi coordinador no puede editar la plantilla
+                </h4>
+              </CardHeader>
+              <CardBody className="overflow-visible py-2">
+                <ReactPlayer
+                  url={"https://youtu.be/eHP-uMhT_o4"}
+                  controls
+                  width={400}
+                  height={202}
+                />
+              </CardBody>
+            </Card>
+          </div>
         </div>
       </div>
     </>
