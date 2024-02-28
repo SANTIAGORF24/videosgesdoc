@@ -4,6 +4,7 @@ import { Banner } from "@/components/Banner/Banner";
 import { Video } from "@/components/Banner/Video";
 import { Basic } from "@/components/Capacitaciones/Basicos";
 import { Frecuentes } from "@/components/Frecuentes/Frecuentes";
+import { Novedades } from "@/components/Novedades/Novedades";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <Video />
       <Basic />
       <Frecuentes />
+      <Novedades />
     </>
   );
 }
